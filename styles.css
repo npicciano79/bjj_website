@@ -1,0 +1,311 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url(images/bjj.jpg);
+    background-size: cover; 
+
+    
+}
+.header{
+    display: flex;
+    align-items: center;
+    background-color: #1f2937;
+    border-radius: 10px;
+    color:white;
+    height:60px;
+    padding:10px;
+    left:0;
+    width:100%;
+    opacity:0.6;
+        
+}
+
+
+.page_logo{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    line-height:55px;
+
+}
+.links_main{
+    
+    align-items: center;
+    margin-left: 40px; 
+    position: relative;
+    display: inline;
+    
+    
+}
+.drpdown{
+    background-color: #1f2937;
+    padding:10px;
+    font-size: 20px;
+    color: white;
+    
+
+
+
+}
+.drpdown_content{
+    display: none;
+    position:absolute;  
+    
+}
+
+
+
+li{
+    float: left;
+    list-style: none; 
+    gap: 20px;
+    
+
+}
+
+div ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    padding:10px 10px;
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    position: relative;   
+}
+
+a{
+    display: flex;
+    position: absolute;
+        
+}
+.title-container{
+    min-height: 300px;
+    display: flex;
+    position: absolute;
+    top:50%;
+    width:100%;
+    background-color: #1f2937;
+    border-radius: 10px;
+    left:0;
+       
+}
+
+.title-container p{
+    color:white;
+    margin:10px;
+    font: bold;
+    font-size: 56px;
+    margin-top: 30px;
+    position:absolute;
+    
+}
+h1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 18px;
+    margin-top: 100px;
+    margin-left: 30px;
+    max-width: 400px;
+    padding-bottom: 20px;
+    
+}
+.belts-container{
+    min-height: 200px;
+    display: flex;
+    position:absolute;
+    top:600px;
+    width:100%;
+    background-color: #1f2937;
+    border-radius: 10px;
+    margin-top: 200px;
+    opacity: 0.6;
+    color: white;
+    margin-bottom: 100px;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+
+}
+.w-container{
+    font-size: 30px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.w-container text{
+    margin-left: 100px;
+    margin-top: 0px;
+    max-height: 40px;
+    max-width: 40px;
+    
+
+    
+}
+.w-container img{
+    width:200px;
+    height: 100px;
+    margin-left: 40px;
+    
+
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+
+
+
+
+
+
+.b-container{
+    object-fit: cover;
+    margin-bottom: 28px;
+    font-size: 30px;
+    margin-top: 30px;
+
+}
+
+.b-container img{
+    width: 200px;
+    height: 100px;
+    margin-left: 80px;
+}
+.b-container text{
+    margin-left: 50px;
+    margin-top: 0px;
+    max-height: 40px;
+    max-width: 40px;
+}
+
+.p-container{
+    object-fit: cover;
+    margin-bottom: 28px;
+    font-size: 30px;
+    margin-top: 30px;
+
+}
+
+.p-container img{
+    width: 200px;
+    height: 105px;
+    margin-left: 80px;
+}
+.p-container text{
+    margin-left: 50px;
+    margin-top: 0px;
+    max-height: 40px;
+    max-width: 40px;
+}
+
+
+
+
+
+.br-container{
+    object-fit: cover;
+    margin-bottom: 28px;
+    font-size: 30px;
+    margin-top: 30px;
+
+}
+
+.br-container img{
+    width: 200px;
+    height: 100px;
+    margin-left: 80px;
+}
+.br-container text{
+    margin-left: 50px;
+    margin-top: 0px;
+    max-height: 40px;
+    max-width: 40px;
+}
+
+
+.bl-container{
+    object-fit: cover;
+    margin-bottom: 28px;
+    font-size: 30px;
+    margin-top: 30px;
+
+}
+
+.bl-container img{
+    width: 200px;
+    height: 100px;
+    margin-left: 80px;
+}
+.bl-container text{
+    margin-left: 50px;
+    margin-top: 0px;
+    max-height: 40px;
+    max-width: 40px;
+}
+
+
+
+
+
+
+.footer{
+    max-height: 100px;
+    display: flex;
+    position:absolute;
+    top:1050px;
+    background-color: #1f2937;
+    width:100%;
+    opacity: 0.8;
+    color: white;
+    border-radius: 10px;
+    justify-content: center; 
+    align-items:flex-start;
+    font-size: 20px;
+    float: left;
+    margin-top: 100px;
+
+}
+.footer_container{
+    padding:10px;
+    
+    
+    
+
+    
+    
+}
+.footer_container ul li{
+    padding:10px;
+    
+ 
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
